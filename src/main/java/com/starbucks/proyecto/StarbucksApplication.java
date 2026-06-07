@@ -1,0 +1,15 @@
+package com.starbucks.proyecto;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan; // <--- IMPORTANTE
+
+@ServletComponentScan
+@SpringBootApplication
+public class StarbucksApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(StarbucksApplication.class, args);
+    }
+
+}
