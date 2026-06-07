@@ -2,7 +2,7 @@
 <%
     if (session.getAttribute("user") == null) {
         response.sendRedirect("login.jsp");
-        return; // Detiene la renderización del HTML por seguridad
+        return;
     }
 %>
 <!DOCTYPE html>
